@@ -1,0 +1,936 @@
+@charset "utf-8";
+
+/* ========================================
+    リセットcss
+========================================= */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-style:normal;
+    font-weight: normal;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+
+}
+html{overflow-y: scroll;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: ''; content: none;}
+input, textarea{margin: 0; padding: 0;}
+ol, ul{padding:0px; display: flex;justify-content:space-between; margin-bottom: 40px;}
+li {
+    padding:0px;
+    list-style: none;
+    font-family:Kosugi,Kosugi MB101 Pro, sans-serif;
+    font-size: 11px;
+    color:#c9caca;
+}
+table{border-collapse: collapse; border-spacing:0;}
+caption, th{text-align: left;}
+a:focus {outline:none;}
+
+div#test {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+}
+
+table{
+    width:100%;
+    border-collapse:separate;
+    border-spacing:1px;
+    border:solid 1px #e0e4e6;
+}
+
+td{
+    padding:0;
+    vertical-align: middle;
+}
+
+th{
+    padding: 0px 0px 0px 35px;
+    text-align:center;
+    vertical-align: middle;
+}
+
+tr:nth-child(odd) th, tr:nth-child(odd) td{
+    background-color:#f3f3f3;
+}
+
+/* micro clearfix */
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {clear: both;}
+.cf {*zoom: 1;}
+
+.clearfix::after {
+    clear: both;
+    display: block;
+    content: "";
+}
+
+
+/*--------style ここから---------*/
+
+body {
+    background:url(https://one-base.net/img/common/purchase_top_h115.png) repeat-x top center;
+    -webkit-appearance:none;
+    overscroll-behavior:none;
+    font-feature-settings:"palt";
+    -webkit-text-size-adjust:100%;
+    -webkit-appearance: none;
+}
+
+a,label{
+    color:#595757;
+    cursor:pointer;
+    text-decoration:none;
+}
+
+a:hover,label:hover{
+    opacity: .7;
+}
+
+input[type="submit"],input[type="text"],input[type="password"],input[type="number"],input[type="button"], button {
+    font-size: 10px;
+    font-feature-settings:"palt";
+    color:#595757;
+    border:#c9caca solid 1px;
+    height:20px;
+    border-radius: 3px;
+    cursor:pointer;
+    -webkit-appearance: none;
+}
+
+input[type="text"]#Name.code {
+    width: 167px;
+    padding-left: 5px;
+}
+
+input[type="text"]#SecurityCode.code {
+    width: 50px;
+    padding-left: 5px;
+}
+
+#purchase_headimg {
+    width: 100%;
+    height:115px;
+    position: relative;
+}
+
+h2.purchase_head_h2 {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    letter-spacing: 4;
+    color: #fff;
+    font-weight: 200;
+    margin:0;
+    padding-top: 25px;
+}
+
+p.purchase_head_p {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:12px;
+    letter-spacing: 4;
+    color: #fff;
+    font-weight: 400;
+    position: relative;
+    padding-top: 17px;
+}
+
+p.purchase_head_p::after {
+    width: 34px;
+    height: 2px;
+    background: #fff;
+    border-radius: 10px;
+    content: '';
+    position: absolute;
+    top:7px;
+    left: 0;
+    right:0;
+    margin:auto;
+}
+
+.purchase_Lion_rogomark {
+     display: none;
+}
+
+.main {
+    width: 700px;
+    margin:0 auto;
+}
+
+.previous_page {
+    margin:12px 0;
+    font-size: 8px;
+}
+
+.Payment_completed_h1 {
+    font-family: sawarabi Gothic , sans-serif;
+    font-weight: bold;
+    color:#677e98;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin:50px 0 15px;
+}
+
+.flow {
+    width: 300px;
+    margin:0 auto;
+}
+
+.flow2 {
+    width: 200px;
+    margin:0 auto;
+}
+
+.flow03 {
+    width: 100px;
+    margin:80px auto 0;
+}
+
+.flow03 ul {
+    padding:0;
+}
+
+.flow03 li {
+    padding:0;
+}
+
+.current {
+    color: #231815;
+}
+
+.txt,.p,.txt_error {
+    width: 500px;
+    height:30px;
+    background: #ebe0e0;
+    display: block;
+    margin:50px auto 4px;
+    color: #a38c96;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+}
+
+.p {
+    margin-bottom: 3px;
+    background: #dfe2db;
+    color: #8f9492;
+    margin-top: 20px;
+}
+
+.txt_end {
+    font-size: 20px;
+    color: #a38c96;
+    display: block;
+    text-align: center;
+    margin:80px auto 85px;
+}
+
+.paytypelist {
+    width: 400px;
+    margin:23px auto 20px;
+}
+
+ul#paytype_list {
+    text-align: center;
+    margin:0 auto;
+    display: block;
+    padding:0;
+    user-select: none;
+}
+
+input[type=radio] {
+       margin: 0 8px;
+       cursor: pointer;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    color:#a38c96;
+    font-family:Kosugi,Kosugi MB101 Pro, sans-serif;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    color: #fff;
+    width: 250px;
+    height:35px;
+    display: block;
+    background-color:#b6aac5;
+    border:none;
+    border-bottom:2px solid #9b979b;
+    font-size: 16px;
+    outline: none;
+    line-height: 35px;
+    background-image: none;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    margin:40px auto 0;
+    cursor: pointer;
+}
+
+.control02 input[type="submit"] {
+    color: #fff;
+    width: 250px;
+    height:35px;
+    display: block;
+    background-color:#a38c96;
+    border:none;
+    border-bottom:2px solid #9b979b;
+    font-size: 16px;
+    outline: none;
+    line-height: 35px;
+    background-image: none;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    margin:40px auto 0;
+    cursor: pointer;
+}
+
+.generic {
+    width: 500px;
+    margin:0 auto 100px;
+    border-collapse: separate;
+    border-spacing: 0 3px;
+    border:none;
+}
+
+.generic th {
+    width: 150px;
+    height:33px;
+    padding:0px 0 0px 33px;
+    line-height: 33px;
+    text-align: left;
+    font-size: 12px;
+    position: relative;
+    background: #f2f2f2;
+}
+
+.generic th:before {
+    content: "";
+    width: 1px;
+    height:27px;
+    background: #ccc;
+    position: absolute;
+    top:3px;
+    right:0;
+}
+
+.generic td {
+    height:33px;
+    padding:0 125px 0 0;
+    text-align: right;
+    font-size: 12px;
+    background: #f2f2f2;
+    line-height: 33px;
+}
+
+.generic02 {
+    width: 500px;
+    margin:0 auto 50px;
+    border-collapse: separate;
+    border-spacing: 0 3px;
+    border:none;
+}
+
+.generic02 th {
+    width: 180px;
+    height:33px;
+    line-height: 35px;
+    text-align: left;
+    font-size: 12px;
+    position: relative;
+    background: #f2f2f2;
+}
+
+.generic02 th:before {
+    content: "";
+    width: 1px;
+    height:27px;
+    background: #ccc;
+    position: absolute;
+    top:3px;
+    right:0;
+}
+
+.generic02 td {
+    height:33px;
+    padding:0 0 0 75px;
+    text-align: left;
+    font-size: 8px;
+    background: #f2f2f2;
+    line-height: 25px;
+    font-family:Kosugi,Kosugi MB101 Pro, sans-serif;
+    color:#3e3a39;
+}
+
+#GP_msg {
+    width: 200px;
+    margin:0 auto 20px;
+}
+
+#GP_msg ul {
+    color:#a12e4b;
+    display: block!important;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#GP_msg li {
+    text-align: center;
+    color:#a12e4b;
+}
+
+#GP_errMessage ul {
+    color:#3e3a39;
+    display: block!important;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.block_err #GP_errMessage ul li {
+    margin-bottom: 4px!important;
+}
+
+.block_err {
+    width: 500px;
+    margin:20px auto;
+}
+
+.block_err ul {
+    padding:0;
+    color:#3e3a39;
+    display: block!important;
+    margin-top: 20px;
+}
+
+.block_err ul li {
+    color:#3e3a39;
+    font-family:Kosugi,Kosugi MB101 Pro, sans-serif;
+    font-size: 12px;
+    padding:2px 0 2px 18px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.block_err ul li:before {
+    content: "";
+    position: absolute;
+    top:7px;
+    left:3px;
+    width: 10px;
+    height:10px;
+    border-radius: 50%;
+    background: #1a1a1a;
+}
+
+.note_th {
+    position: relative;
+}
+
+.note {
+    position: absolute;
+    bottom: -26px;
+    left:35px;
+    z-index: 1;
+}
+
+.no_tr th {
+    background: transparent!important;
+    height:20px!important;
+}
+
+.no_tr td {
+    background: transparent!important;
+    height:20px!important;
+}
+
+.no_tr th:before {
+    content: "";
+    width: 1px;
+    height:27px;
+    background: #fff;
+    position: absolute;
+    top:3px;
+    right:0;
+}
+
+.note {
+    font-size: 8px;
+    color:#c30d23;
+    font-family:Kosugi,Kosugi MB101 Pro, sans-serif;
+    white-space: nowrap;
+}
+
+select {
+    width: 132px;
+    height:20px;
+    border:#c9caca solid 1px;
+    color:#595757;
+    font-size: 8px;
+    font-family:Kosugi,Kosugi MB101 Pro, sans-serif;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+select#__expire_month_list {
+    width: 50px;
+    margin-right: 6px;
+}
+
+select#__expire_year_list {
+    width: 50px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+option {
+    font-family:Kosugi,Kosugi MB101 Pro, sans-serif;
+    font-size: 10px;
+    cursor: pointer;
+    color: #595757;
+}
+
+.control04 {
+    position: relative;
+}
+
+.control04 input[type="submit"] {
+    color: #fff;
+    width: 130px;
+    height:20px;
+    font-family:Kosugi,Kosugi MB101 Pro, sans-serif;
+    display: block;
+    background-color:#677e98;
+    border:none;
+    border-bottom:2px solid #929899;
+    font-size: 9px;
+    outline: none;
+    line-height: 20px;
+    background-image: none;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    margin:20px auto;
+    cursor: pointer;
+    position: absolute;
+    top:0;
+    left:185px;
+}
+
+.txt_virtual {
+    font-size: 12px;
+    text-align: center;
+}
+
+.txt_virtual span {
+    font-size: 12px;
+    color:#c30d23;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.txt_virtual02 {
+    font-size: 12px;
+    text-align: center;
+    margin:-60px 0 60px;
+}
+
+.control_virtual {
+    margin-bottom: 100px;
+}
+
+/* ===============================================
+　　スマホ　 567px - 540pxに対応 
+=============================================== */
+@media (max-width:567px) {
+    .main {
+    width: 100%;
+    margin:0 auto;
+}
+
+.previous_page {
+    margin:12px auto;
+    font-size: 8px;
+    width: 90%;
+}
+
+.Payment_completed_h1 {
+    margin:50px 0 15px;
+}
+
+.flow {
+    width: 300px;
+    margin:0 auto;
+}
+
+.flow2 {
+    width: 200px;
+    margin:0 auto;
+}
+
+.flow03 {
+    width: 100px;
+    margin:80px auto 0;
+}
+
+.flow03 ul {
+    padding:0;
+}
+
+.flow03 li {
+    padding:0;
+}
+
+.current {
+    color: #231815;
+}
+
+.txt,.p,.txt_error {
+    width: 90%;
+    height:30px;
+    background: #ebe0e0;
+    display: block;
+    margin:50px auto 4px;
+    color: #a38c96;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+}
+
+.p {
+    margin-bottom: 3px;
+    background: #dfe2db;
+    color: #8f9492;
+    margin-top: 20px;
+}
+
+.txt_end {
+    font-size: 20px;
+    color: #a38c96;
+    display: block;
+    text-align: center;
+    margin:80px auto 85px;
+}
+
+.paytypelist {
+    width: 80%;
+    margin:23px auto 20px;
+}
+
+ul#paytype_list {
+    text-align: center;
+    margin:0 auto;
+    display: block;
+    padding:0;
+    user-select: none;
+}
+
+input[type=radio] {
+       margin: 0 8px;
+       cursor: pointer;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    color:#a38c96;
+    font-family:Kosugi,Kosugi MB101 Pro, sans-serif;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    width: 250px;
+    font-size: 16px;
+    margin:40px auto 0;
+}
+
+.control02 input[type="submit"] {
+    width: 250px;
+    font-size: 16px;
+    margin:40px auto 0;
+}
+
+.generic {
+    width: 90%;
+    margin:0 auto 100px;
+    border-collapse: separate;
+    border-spacing: 0 3px;
+    border:none;
+}
+
+.generic th {
+    width: 150px;
+    height:33px;
+    padding:0px 0 0px 33px;
+    line-height: 33px;
+    text-align: left;
+    font-size: 12px;
+    position: relative;
+    background: #f2f2f2;
+}
+
+.generic th:before {
+    content: "";
+    width: 1px;
+    height:27px;
+    background: #ccc;
+    position: absolute;
+    top:3px;
+    right:0;
+}
+
+.generic td {
+    height:33px;
+    padding:0 30px 0 0;
+    text-align: right;
+    font-size: 12px;
+    background: #f2f2f2;
+    line-height: 33px;
+}
+
+.generic02 {
+    width: 90%;
+    margin:0 auto 50px;
+    border-collapse: separate;
+    border-spacing: 0 3px;
+    border:none;
+}
+
+.generic02 th {
+    width: 180px;
+    height:33px;
+    line-height: 35px;
+    text-align: left;
+    font-size: 12px;
+    position: relative;
+    background: #f2f2f2;
+}
+
+.generic02 th:before {
+    content: "";
+    width: 1px;
+    height:27px;
+    background: #ccc;
+    position: absolute;
+    top:3px;
+    right:0;
+}
+
+.generic02 td {
+    height:33px;
+    padding:0 0 0 75px;
+    text-align: left;
+    font-size: 8px;
+    background: #f2f2f2;
+    line-height: 25px;
+    font-family:Kosugi,Kosugi MB101 Pro, sans-serif;
+    color:#3e3a39;
+}
+
+#GP_msg {
+    width: 200px;
+    margin:0 auto 20px;
+}
+
+#GP_msg ul {
+    color:#a12e4b;
+    display: block!important;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#GP_msg li {
+    text-align: center;
+    color:#a12e4b;
+}
+
+#GP_errMessage ul {
+    color:#3e3a39;
+    display: block!important;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.block_err #GP_errMessage ul li {
+    margin-bottom: 4px!important;
+}
+
+.block_err {
+    width: 90%;
+    margin:20px auto;
+}
+
+.block_err ul {
+    padding:0;
+    color:#3e3a39;
+    display: block!important;
+    margin-top: 20px;
+}
+
+.block_err ul li {
+    color:#3e3a39;
+    font-family:Kosugi,Kosugi MB101 Pro, sans-serif;
+    font-size: 12px;
+    padding:2px 0 2px 18px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.block_err ul li:before {
+    content: "";
+    position: absolute;
+    top:7px;
+    left:3px;
+    width: 10px;
+    height:10px;
+    border-radius: 50%;
+    background: #1a1a1a;
+}
+
+.note_th {
+    position: relative;
+}
+
+.note {
+    position: absolute;
+    bottom: -26px;
+    left:35px;
+    z-index: 1;
+}
+
+.no_tr th {
+    background: transparent!important;
+    height:20px!important;
+}
+
+.no_tr td {
+    background: transparent!important;
+    height:20px!important;
+}
+
+.no_tr th:before {
+    content: "";
+    width: 1px;
+    height:27px;
+    background: #fff;
+    position: absolute;
+    top:3px;
+    right:0;
+}
+
+.note {
+    font-size: 8px;
+    color:#c30d23;
+    font-family:Kosugi,Kosugi MB101 Pro, sans-serif;
+    white-space: nowrap;
+}
+
+select {
+    width: 132px;
+    height:20px;
+    border:#c9caca solid 1px;
+    color:#595757;
+    font-size: 8px;
+    font-family:Kosugi,Kosugi MB101 Pro, sans-serif;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+select#__expire_month_list {
+    width: 50px;
+    margin-right: 6px;
+}
+
+select#__expire_year_list {
+    width: 50px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+option {
+    font-family:Kosugi,Kosugi MB101 Pro, sans-serif;
+    font-size: 10px;
+    cursor: pointer;
+    color: #595757;
+}
+
+.control04 {
+    position: relative;
+}
+
+.control04 input[type="submit"] {
+    color: #fff;
+    width: 130px;
+    height:20px;
+    font-family:Kosugi,Kosugi MB101 Pro, sans-serif;
+    display: block;
+    background-color:#677e98;
+    border:none;
+    border-bottom:2px solid #929899;
+    font-size: 9px;
+    outline: none;
+    line-height: 20px;
+    background-image: none;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    margin:20px auto;
+    cursor: pointer;
+    position: absolute;
+    top:0;
+    left:185px;
+}
+
+.txt_virtual {
+    font-size: 12px;
+    text-align: center;
+}
+
+.txt_virtual span {
+    font-size: 12px;
+    color:#c30d23;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.txt_virtual02 {
+    font-size: 12px;
+    text-align: center;
+    margin:-60px 0 60px;
+}
+
+.control_virtual {
+    margin-bottom: 100px;
+}
+
+
+}

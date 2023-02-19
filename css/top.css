@@ -1,0 +1,53 @@
+html {
+    background: #000;
+}
+
+header {
+    background: #000;
+    box-shadow: 0 1px 3px #ac984e;
+}
+
+header .display_top_logo {
+    display: block;
+}
+
+header .display_other_logo,
+header .display_other_logo_120px {
+    display: none;
+}
+
+    header a img {
+    width: 150px;
+}
+
+
+header nav ul>li>a,
+header nav ul>li>span {
+    color: #fff;
+}
+
+.nav_body ul>li>span,
+.nav_footer ul>li>a {
+    color: #595757;
+}
+
+header nav ul li ul li a {
+    background-color: #000;
+    color: #fff;
+}
+
+header .header_login {
+    color: #fff;
+}
+
+header .header_login:hover {
+    color: #fafafa;
+}
+
+.header_regi:hover {
+    color: #000;
+}
+
+.md-light {
+    color: rgba(255, 255, 255, 1);
+}

@@ -1,0 +1,51 @@
+.nav_rearch {
+    display: inline-block !important;
+}
+
+.movie_event_category {
+    display: flex !important;
+}
+
+@media (max-width:912px) {
+
+
+    .display_912px_on {
+        display: block !important;
+    }
+
+    .display_912px_off,
+    .header_nav_menu {
+        display: none !important;
+    }
+
+    header nav ul>li>span {
+        margin-left: 15px;
+        width: 125px;
+    }
+
+    header nav ul>li>span {
+        margin-left: 0;
+    }
+
+    header nav ul li ul {
+        left: -42px;
+    }
+
+}
+
+@media (max-width:567px) {
+    header {
+        padding: 0 10px;
+    }
+
+    .nav_rearch {
+        display: block !important;
+    }
+
+    .header_hamburge,
+    .display_912px_on {
+        display: none !important;
+        margin-left: 12px;
+    }
+
+}

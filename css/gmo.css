@@ -1,0 +1,358 @@
+@charset "utf-8";
+
+/* ========================================
+    リセットcss
+========================================= */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-style:normal;
+    font-weight: normal;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+
+}
+html{overflow-y: scroll;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: ''; content: none;}
+input, textarea{margin: 0; padding: 0;}
+ol, ul,li{padding:5px 0 0 10px;}
+table{border-collapse: collapse; border-spacing:0;}
+caption, th{text-align: left;}
+a:focus {outline:none;}
+
+div#test {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+}
+
+table{
+    width:100%;
+    border-collapse:separate;
+    border-spacing:1px;
+    border:solid 1px #e0e4e6;
+}
+
+td{
+    padding:10px 6px;
+}
+
+th{
+    padding:10px 0;
+    text-align:center;
+}
+
+tr:nth-child(odd) th, tr:nth-child(odd) td{
+    background-color:#f3f3f3;
+}
+
+/* micro clearfix */
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {clear: both;}
+.cf {*zoom: 1;}
+
+.clearfix::after {
+    clear: both;
+    display: block;
+    content: "";
+}
+
+
+/*--------style ここから---------*/
+
+body {
+    background:url(https://one-base.net/img/common/wall_whitewood.jpg) center/cover;
+    -webkit-appearance:none;
+    overscroll-behavior:none;
+    font-feature-settings:"palt";
+    -webkit-text-size-adjust:100%;
+}
+
+input[type="text"],input[type="password"],input[type="number"],
+input[type="submit"],input[type="button"], button {
+    font-size: 16px;
+    font-feature-settings:"palt";
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.bodyinner {
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    height:auto;
+    border-top: solid 15px #fa7073;
+    border-bottom: solid 5px #fa7073;
+    background-color: #fff;
+}
+
+.header_p {
+    font-size: 10px;
+    text-align: center;
+    color: #aaa;
+    padding-top: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px;
+}
+
+.active {
+    padding: 10px;
+    display: block;
+}
+
+ul {
+    list-style:none;
+}
+
+li {
+    float: left;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+.flow {
+    width: 350px;
+    margin:0 auto 20px;
+}
+
+.flow span {
+    color: #aaa;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.current span {
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.main {
+    width: 800px;
+    margin:0px auto;
+}
+
+.txt {
+    display: block;
+    margin-top: 30px;
+}
+
+.txt_v {
+    display: block;
+    margin: 0px 0 10px;
+}
+
+
+.block {
+    width: 100%;
+}
+
+h2 {
+  padding: 20px 0;
+  background: none;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+h2:after {
+  content: "";
+  display: block;
+  height: 6px;
+  background: -webkit-linear-gradient(to right, rgb(165, 165, 165), transparent);
+  background: linear-gradient(to right, rgb(165, 165, 165), transparent);
+}
+
+.p {
+    display: block;
+    margin:6px 0;
+    font-weight: bold;
+    color:#666;
+}
+
+.bl_body {
+    width: 100%;
+}
+
+.generic {
+    width: 100%;
+}
+
+th,td {
+    font-weight: bold;
+}
+
+tr:nth-child(even) th, tr:nth-child(even) td{
+    background-color:#fff;
+}
+
+.paytypelist {
+    width: 100%;
+}
+
+.paytypelist input {
+    margin-right:8px;
+    font-size: 20px;
+
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.control {
+    width: 60%;
+    margin:150px auto 50px;
+}
+
+input[type="submit"] {
+    cursor:pointer;
+    text-align:center;
+    margin:0 auto;
+    padding:0 auto;
+    background:url(/img/common/arrow.png) no-repeat 20px center #fa7073;
+    color:white;
+    font-weight:normal;
+    width:100%;
+    height:45px;
+    border:none;
+    border-bottom:solid 2px #cc6567;
+    border-radius:5px;
+    font-size: 16px;
+}
+
+footer {
+    position: fixed;
+    bottom:0;
+    left: 0;
+    height:20px;
+    width: 100%;
+    background-color: #fa7073;
+}
+
+.footer {
+    font-size: 8px;
+    text-align: center;
+    color: #f7c9ca;
+    display: block;
+    padding-top: 2px;
+    font-weight: bold;
+
+}
+
+h2.h2_pay {
+    text-indent:5px;
+    font-size:18px;
+    font-weight:normal;
+    height:50px;
+    padding: 5px;
+    line-height:40px;
+    border:solid 1px #e7e1dc;
+    background-image: url(https://one-base.net/img/common/white_h2.jpg);
+}
+
+h2.h2_pay:after {
+    background:none;
+}
+
+.control_pay {
+    width: 60%;
+    margin:60px auto;
+}
+
+.control_v {
+    width: 60%;
+    margin:60px auto;
+}
+
+.note {
+    font-size: 14px;
+    color: red;
+}
+
+
+
+@media (max-width:1050px) {
+
+.main {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 4%;
+}
+
+.txt {
+    font-size: 16px;
+}
+
+h2 {
+   margin-top: 10px;
+}
+
+.p {
+    display: block;
+    margin:6px 0;
+}
+
+.control {
+    margin:80px auto 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}

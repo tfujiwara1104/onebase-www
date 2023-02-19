@@ -1,0 +1,30 @@
+@use 'footer';
+
+@mixin set-margin($direction, $value) {
+  margin-#{$direction}: $value;
+}
+
+body {
+  color: aqua;
+  user-select: none;
+  margin: 10px 20px 10px 20px;
+}
+
+$primary-color: orange;
+
+.content {
+  .title {
+    font-size: 2rem;
+    font-size: 2rem;
+    color: $primary-color;
+  }
+  .title-lg {
+    @extend .title;
+    font-size: 3rem;
+  }
+  @include set-margin(right, 16px);
+}
+
+h1 {
+  background-image: url('~@img/kv.jpg');
+}

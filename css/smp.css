@@ -1,0 +1,3838 @@
+@media (max-width:1024px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .main>div {
+        width: 100%;
+        min-height: calc(100vh - 240px);
+    }
+
+    header {
+        padding: 0 25px;
+    }
+
+    header div,
+    header nav {
+        margin: auto 0px;
+    }
+
+    .header_login_btn {
+        margin-left: 25px;
+    }
+
+    header .nav_rearch {
+        width: 350px;
+    }
+
+    header .nav_rearch ul li {
+        width: 100%;
+    }
+
+    header input[type="text"] {
+        width: 350px;
+    }
+
+    /*  ご利用ガイド*/
+
+    .section_www_guide {
+        width: 100%;
+    }
+
+    .guide_bg,
+    .guide_bg:before,
+    .guide_bg .sectionTtl {
+        height: 250px;
+    }
+
+    .about_contain {
+        padding: 0 3%;
+    }
+
+    .about_content p {
+        padding: 20px 3%;
+        font-size: 18px;
+    }
+
+    .about_content p .material-symbols-outlined {
+        font-size: 26px;
+    }
+
+    .about_content .in_preparation {
+        padding: 20px 3%;
+        font-size: 16px;
+    }
+
+    /*  top　*/
+    .concept_area_inner {
+        width: 100%;
+        padding-top: 180px;
+    }
+
+    .guide_line_info_inner,
+    .guide_section_contain {
+        width: 100%;
+        padding: 0 2%;
+        margin: 0 auto;
+    }
+
+    .inner-articlePage {
+        width: 100%;
+        padding: 0 6.5rem 0;
+        margin: 0 auto;
+    }
+
+    /*マーケット*/
+
+    .LINEUP_BOX,
+    .section_research,
+    .floor_name,
+    .div_floor_title {
+        width: 1000px;
+    }
+
+    .item,
+    .item_job {
+        width: 19%;
+        margin: 0 calc(5%/4) 60px 0;
+    }
+
+    .site-footer {
+        transition: .5s;
+    }
+
+    .site-footer.hide02 {
+        transform: translateY(100%);
+    }
+
+    .sf-back-to-top {
+        left: 25px;
+        bottom: 25px;
+    }
+
+    .item_exhibition_btn {
+        right: 25px;
+        bottom: 25px;
+    }
+
+    .smp_video_area {
+        margin: 0 auto 50px !important;
+    }
+
+    .item_exhibition_btn img,
+    .sf-back-to-top img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .smp_footer {
+        position: relative;
+        z-index: 200;
+    }
+
+    .mypage_body {
+        width: 960px;
+        margin: 0 auto 70px;
+    }
+
+    .course {
+        width: 24%;
+        margin: 0 calc(4%/3) 60px 0;
+    }
+
+
+    /*detail*/
+
+    .body_area {
+        display: contents !important;
+    }
+
+    .detaile_floor_innner {
+        width: 96%;
+    }
+
+    .detaile_container {
+        width: 96%;
+    }
+
+    .detaile_inner_right {
+        width: 40%;
+    }
+
+    .detaile_inner_left {
+        width: 58%;
+        height: auto;
+    }
+
+    .detaile_inner_right02 {
+        width: 48%;
+    }
+
+    .detaile_inner_left02 {
+        width: 48%;
+    }
+
+    .preview_iframe_BOX {
+        width: 100%;
+    }
+
+    .container_slider {
+        width: 100%;
+    }
+
+    .item_info_box02 span {
+        width: calc(100% - 100px);
+    }
+
+    .container_inner03 {
+        width: 100%;
+    }
+
+    .container_inner03 .text_BOX .text_note {
+        font-size: 10px;
+    }
+
+
+    header .nav_rearch ul li ul li {
+        width: 250px;
+    }
+
+    .information_bg,
+    .information_bg:before {
+        height: 200px;
+    }
+
+    .information_bg .sectionTtl {
+        line-height: 200px;
+        height: 200px;
+    }
+
+    .section_www_info {
+        width: 100%;
+        height: auto;
+        margin: 10px auto 100px;
+        padding: 40px 3%;
+    }
+
+    .breadcrumb {
+        padding: 10px 3% 0;
+    }
+
+}
+
+/* ===============================================
+　　Ipad 912px -
+=============================================== */
+@media (max-width:912px) {
+    header .nav_rearch {
+        width: auto;
+    }
+
+    header input[type="text"] {
+        width: 100%;
+    }
+
+    /*  ご利用ガイド　*/
+
+    .section_www_guide {
+        margin: 10px auto 70px;
+        padding: 20px 0;
+    }
+
+    .sectionHd {
+        margin-bottom: 45px;
+    }
+
+    .guide_bg,
+    .guide_bg:before,
+    .guide_bg .sectionTtl {
+        height: 200px;
+    }
+
+    .about_content {
+        width: 49%;
+    }
+
+    /*  マーケット　*/
+
+    .LINEUP_BOX,
+    .section_research,
+    .floor_name {
+        width: 94%;
+        margin: auto;
+    }
+
+    .floor_name {
+        width: 94%;
+        margin: 15px auto 0;
+    }
+
+    .LINEUP_BOX_list {
+        width: 100%;
+    }
+
+    .div_floor_title img {
+        width: 100px;
+    }
+
+    .market_head_h2 {
+        font-size: 36px;
+        padding-top: 10px;
+    }
+
+    .div_floor_title {
+        height: 140px;
+        width: auto;
+    }
+
+    .history_link {
+        margin-top: 5px;
+        font-size: 12px;
+        top: 0;
+        right: 0;
+    }
+
+
+    .key_word_style {
+        margin: 0 auto 35px;
+    }
+
+    p.pagenavi {
+        margin: 0px auto 15px;
+    }
+
+    .mall_categories {
+        padding-bottom: 6px;
+        margin: 10px 0 5px;
+    }
+
+    .pagenavi_num {
+        font-size: 12px;
+        padding: 5px 0;
+        margin-bottom: 30px;
+    }
+
+
+    .item,
+    .item_job,
+    .course {
+        margin: 0 calc(4%/3) 50px 0;
+        width: 24%;
+    }
+
+    .item:nth-child(5n),
+    .item_job:nth-child(5n) {
+        margin-right: calc(4%/3);
+    }
+
+    .item:nth-child(4n),
+    .item_job:nth-child(4n) {
+        margin-right: 0;
+    }
+
+    .price_box p.mistumori_price {
+        font-size: 14px;
+    }
+
+    .category_seller_wrap {
+        margin-top: 0px;
+    }
+
+    .price_box p.capacity_num {
+        bottom: 4px;
+        font-size: 11px;
+    }
+
+
+    .category_seller_IMG {
+        width: 30px;
+        height: 30px;
+        padding-top: 3px;
+    }
+
+    .category_seller_IMG img {
+        width: 30px;
+        height: 30px;
+    }
+
+
+    .item_exhibition_btn img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .sf-back-to-top img {
+        width: 80px;
+        height: 80px;
+    }
+
+
+    /*  乗算　*/
+
+    .correspondence_color {
+        top: 140;
+    }
+
+
+    /*  マーケット　商品詳細ページ　*/
+
+    .container_inner01 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .container_inner_lesson {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+
+    .detaile_inner_right {
+        width: 100%;
+    }
+
+    .detaile_inner_left {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .use_912px {
+        display: flex;
+        justify-content: center;
+        border: solid 4px #106f51;
+        background-color: #f3f8f6;
+    }
+
+    .item_info_box04 {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+
+    .item_info_box04 input[type="submit"] {
+        width: auto;
+        height: 40px;
+        border: solid 2px #8aa5a4;
+        padding: 5px 25px;
+        border-radius: 20px;
+
+    }
+
+
+    .container_detail {
+        width: 700px;
+        margin: 0 auto 100px;
+    }
+
+    .item_info {
+        margin: 55px 0 0 0;
+    }
+
+    .teacher_text {
+        width: 438px;
+    }
+
+    .tax_box p {
+        padding: 35px 0 0 50px;
+    }
+
+    .purple_color_button {
+        width: 100%;
+        margin: 15px auto 20px;
+    }
+
+    .section_list_detail {
+        margin: 15px auto 50px;
+        padding-bottom: 25px;
+        width: 100%;
+        display: block;
+        border-bottom: solid 1px #eee;
+    }
+
+    .section_list_detail p {
+        width: 96%;
+        height: auto;
+        line-height: 20px;
+        padding: 0;
+        margin: 0 auto 20px !important;
+    }
+
+    .section_list_detail p:nth-child(2n) {
+        margin-right: auto;
+    }
+
+    .section_list_detail p a {
+        width: 96%;
+        padding: 0;
+        margin: 0 auto;
+        font-size: 13px;
+        font-family: 'Alata', sans-serif;
+    }
+
+    .seller_img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .seller_box p {
+        width: calc(100% - 120px);
+    }
+
+    .dummy__btn {
+        margin: 0;
+    }
+
+    .item_info_box03 {
+        justify-content: center;
+    }
+
+    /*  detail 動画詳細ページ　*/
+
+    .Item_registration_bannar {
+        width: 700px;
+    }
+
+    .course_section_div {
+        max-width: 700px;
+    }
+
+    .section_detail_title span {
+        font-size: 14px;
+    }
+
+
+    .section_list {
+        max-height: 600px;
+    }
+
+    .detail_section_title_h3 {
+        font-size: 16px;
+        color: #7ea0b1;
+        background: none;
+        font-family: 'Alata', sans-serif;
+        margin: 30px 0 0px;
+        height: 30px;
+        line-height: 30px;
+        text-indent: 0;
+        position: relative;
+    }
+
+    .section_chapter_h3 {
+        font-size: 16px;
+        margin: 40px 0 10px;
+    }
+
+    .section_chapter_h3:before {
+        width: 620px;
+    }
+
+    .section_list_detail {
+        margin: 15px auto 50px;
+        padding-bottom: 25px;
+        width: 740px;
+        border-bottom: solid 1px #eee;
+    }
+
+    .section_list_detail p {
+        width: 100%;
+        height: auto;
+        line-height: 20px;
+        padding: 0;
+        margin: 5px 0px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .section_list_detail p:nth-child(2n) {
+        margin-right: 0px;
+    }
+
+
+    /*  🍔　*/
+    .site-header {
+        transition: .5s;
+    }
+
+    .site-header.hide {
+        transform: translateY(-100%);
+    }
+
+    .header_hamburge {
+        position: relative;
+        width: 30px;
+        height: 50px;
+    }
+
+    .header_hamburge>ul {
+        position: absolute;
+        top: -5;
+        right: 100px;
+        width: 140px;
+    }
+
+    .global-nav {
+        position: fixed;
+        top: 0px;
+        right: -300px;
+        width: 300px;
+        height: 100vh;
+        background-color: #e5e5e5;
+        transition: all .5s;
+        z-index: 200;
+        margin: 0;
+    }
+
+    .global-nav_innar {
+        width: 100%;
+        margin: auto;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        z-index: 201;
+    }
+
+    .nav_header {
+        width: 100%;
+        height: 84px;
+        margin: 0;
+        padding-top: 20px;
+        box-shadow: 0 1px 3px #ac984e;
+    }
+
+    .nav_body {
+        width: 100%;
+        flex: 1;
+        flex-direction: column;
+        overflow-y: scroll;
+        padding: 10px 0 100px 20px;
+        margin: 0;
+    }
+
+    .nav_body li a {
+        color: #595757;
+        font-size: 15px;
+        display: block;
+    }
+
+    .nav_body ol {
+        list-style-type: none;
+        margin: 0px 0 15px 30px;
+    }
+
+    .nav_body ol li {
+        position: relative;
+    }
+
+    .nav_body ol li:before {
+        content: "";
+        border-left: solid 1px #ac984e;
+        height: 20px;
+        position: absolute;
+        top: 8px;
+        left: -15px;
+    }
+
+    .nav_body ul li span {
+        font-weight: bold;
+    }
+
+    .global-nav_innar .header_login {
+        border: solid 0.25px #ac984e;
+        padding: 10px;
+        display: block;
+        border-radius: 4px;
+        font-size: 14px;
+        text-align: center;
+        color: #595757;
+        display: block;
+        width: 180px;
+        margin: 0 auto;
+    }
+
+    .global-nav_innar ul {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
+        margin: 0;
+    }
+
+    .global-nav_innar ul li {
+        line-height: 2.5;
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .global-nav_innar ul li:last-child {
+        margin-bottom: 15px;
+    }
+
+    .global-nav_innar ul li a {
+        letter-spacing: .1em;
+    }
+
+    header nav ul>li>span {
+        margin-left: 0;
+    }
+
+    .hamburger {
+        position: absolute;
+        margin: 4px 0 0 0;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        z-index: 300;
+        top: 0px;
+    }
+
+    .hamburger__line {
+        position: absolute;
+        left: 11px;
+        width: 18px;
+        height: 2px;
+        background-color: #ac984e;
+        transition: all .6s;
+    }
+
+    .arrow_menu_footer {
+        font-size: 8px;
+        position: absolute;
+        right: 0;
+        padding-top: 13px;
+    }
+
+    .hamburger__line--1 {
+        top: 14px;
+    }
+
+    .hamburger__line--2 {
+        top: 20px;
+    }
+
+    .hamburger__line--3 {
+        top: 26px;
+    }
+
+    .black-bg {
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 100;
+        background: rgba(0, 0, 0, .6);
+        visibility: hidden;
+        transition: all .6s;
+        cursor: pointer;
+        margin: 0;
+    }
+
+    /* 表示された時用のCSS */
+    .nav-open .main>div {
+        position: fixed;
+        left: 0;
+        top: 60px;
+        bottom: 0;
+        right: 0;
+    }
+
+
+    .nav-open .hamburger {
+        border-radius: 50%;
+        background-color: #e5e5e5;
+        animation-name: fadein;
+        animation-duration: 1s;
+        position: fixed;
+        margin: 6px 0 0 0;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        z-index: 300;
+        top: 15px;
+        right: 325px;
+    }
+
+    @keyframes fadein {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .nav-open .hamburger__line {
+        background-color: #ac984e;
+    }
+
+    .nav-open .global-nav {
+        top: 0;
+        right: 0px;
+    }
+
+    .nav-open .black-bg {
+        filter: blur(10px);
+        visibility: visible;
+    }
+
+    .nav-open .hamburger__line--1 {
+        transform: rotate(45deg);
+        top: 20px;
+    }
+
+    .nav-open .hamburger__line--2 {
+        width: 0;
+        left: 50%;
+    }
+
+    .nav-open .hamburger__line--3 {
+        transform: rotate(-45deg);
+        top: 20px;
+    }
+
+    /*  🍔　*/
+
+    .www_header_hnav {
+        margin: 0;
+        width: 92%;
+        height: 75px;
+    }
+
+    .flex_ {
+        flex-direction: initial !important;
+        justify-content: space-between !important;
+    }
+
+    .flex_ li {
+        width: 49% !important;
+        margin: 20px 0 0 !important;
+    }
+
+    .flex_ li a {
+        width: 100% !important;
+        text-align: center !important;
+        padding: 5px 0 !important;
+    }
+
+
+
+}
+
+/* ===============================================
+　　Ipad 768px -
+=============================================== */
+@media (max-width:768px) {
+    .main {
+        margin-top: 60px;
+    }
+
+    .display_768px_off {
+        display: none;
+    }
+
+    .display_768px_on {
+        display: flex;
+    }
+
+    .display_768px_on_block {
+        display: block;
+    }
+
+    .display_768_flex_important {
+        display: flex !important;
+    }
+
+    header {
+        height: 60px;
+    }
+
+    footer nav {
+        margin: 20px 30px;
+        width: 100%;
+    }
+
+    .sf-back-to-top {
+        left: 25px;
+        bottom: 25px;
+    }
+
+    .sf-back-to-top img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .section_www_info .pagenavi_num_noline {
+        display: none;
+    }
+
+    /* お知らせ*/
+
+    .inner-articlePage {
+        padding: 0 2.5rem 0;
+    }
+
+    /*  リマインダー  */
+    .section_www_reminder {
+        width: 600px;
+        padding: 65px 50px;
+    }
+
+    .section_www_reminder p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    /*　利用規約　*/
+    .section_www_rule {
+        width: 600px;
+    }
+
+
+    /* 登録フォーム*/
+
+    .section_www_regist {
+        width: 600px;
+        padding: 65px 100px;
+    }
+
+    .section_www_regist_check {
+        width: 600px;
+        margin: 90px auto 100px;
+        padding: 65px;
+    }
+
+
+    .section_www_regist_comp {
+        width: 600px;
+        margin: 90px auto 100px;
+    }
+
+    /* お問い合わせ*/
+    .section_www_contact {
+        width: 600px;
+    }
+
+    .table_form_contact th {
+        width: 160px;
+        padding: 15px 0 15px 25px;
+        font-size: 12px;
+    }
+
+    .table_form_contact td {
+        padding: 15px 25px 15px 0;
+    }
+
+    /* アイコン設定*/
+    .section_www_config {
+        width: 600px;
+        padding: 0;
+    }
+
+    .section_www_config h2 {
+        margin-top: 60px;
+    }
+
+    .iphon_icon {
+        width: 180px;
+    }
+
+    .iPhone_img,
+    .android_img {
+        width: 100%;
+    }
+
+    .iPhone_img img,
+    .android_img img {
+        width: 100%;
+    }
+
+    /* top*/
+    .kv_div {
+        width: 400px;
+        top: 100px;
+    }
+
+    .section_map_area {
+        width: 600px;
+        margin: 170px auto 70px;
+    }
+
+    .concept_area_inner {
+        padding-top: 150px;
+        height: 850px;
+    }
+
+    .concept_area_p img {
+        right: 50px;
+    }
+
+    .star-box01 {
+        top: 120px;
+        right: 60px;
+    }
+
+    .star-box02 {
+        top: 60px;
+        left: 150px;
+    }
+
+    .star-box03 {
+        top: 280px;
+        left: 300px;
+    }
+
+    .star-box04 {
+        top: 185px;
+        right: 30px;
+    }
+
+    .map_img_set {
+        height: 300px;
+    }
+
+
+    .map_comp {
+        bottom: -28px;
+        right: 25px;
+    }
+
+    .map_comp span {
+        top: -10px;
+        right: 95px;
+    }
+
+    .map_img01 {
+        bottom: 0;
+        left: 55px;
+    }
+
+    .map_img01 span {
+        top: -24px;
+        left: 150px;
+    }
+
+    .map_img02 {
+        bottom: 0;
+        right: 85px;
+    }
+
+    .map_img02 span {
+        top: -30px;
+        left: 150px;
+    }
+
+    .map_img03 {
+        bottom: -20px;
+        left: -37px;
+    }
+
+    .map_img03 span {
+        top: -20px;
+        left: 170px;
+    }
+
+    .kv_bottom_area .sns_kv {
+        padding-right: 0px;
+    }
+
+    .kv_bottom_area .sns_kv p {
+        font-size: 14px;
+    }
+
+    /* gaide market */
+    .section_header:before {
+        width: 600px;
+        height: 300px;
+    }
+
+    .section_header:after {
+        width: 600px;
+        height: 300px;
+    }
+
+
+    .section_header>div {
+        width: 600px;
+        height: 230px;
+    }
+
+    .section_inner {
+        display: block;
+        width: 600px;
+        margin: 25px auto;
+    }
+
+    .section_inner_revers {
+        display: block;
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .section_inner_Instagram {
+        width: 600px;
+        margin: 25px auto;
+    }
+
+    .section_inner_left_main {
+        width: 200px;
+        margin: 0;
+        display: flex;
+    }
+
+    .elevater_btn_flex {
+        padding: 0 0 0 50px;
+        margin: 80px auto 60px;
+        min-width: 400px;
+        flex-wrap: wrap;
+        flex-direction: unset;
+    }
+
+    .elevater_btn_flex a {
+        margin: 10px auto 10px 40px;
+    }
+
+
+    .section_inner_block {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .elevater_btn:before {
+        top: -30px;
+        left: 90px;
+        transform: rotate(-90deg);
+    }
+
+    .elevater_btn:after {
+        content: 'フロアを選択してください';
+        font-size: 14px;
+        position: absolute;
+        top: -35px;
+        left: 110px;
+        white-space: nowrap;
+    }
+
+    .floor_info {
+        margin: 0px auto 50px;
+    }
+
+    .section_inner_left_main {
+        width: 200px;
+        margin: 25px auto 0 0;
+    }
+
+    .section_inner_right {
+        width: 600px;
+    }
+
+    .floor_info_select {
+        width: 600px;
+        margin: 50px 0;
+
+    }
+
+    .section_inner_left {
+        width: 200px;
+        margin: 100px auto;
+    }
+
+    .span_floor_num {
+        top: -60px;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        font-size: 24px;
+    }
+
+    .span_floor_title {
+        bottom: -80px;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        font-size: 30px;
+        letter-spacing: 1;
+    }
+
+    .span_floor_title:before {
+        width: 30px;
+        height: 1px;
+        top: -6px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    /* gaide community */
+
+
+    .section_header h1 {
+        font-size: 36px;
+        margin: 5px auto 35px;
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .section_header p {
+        font-size: 36px;
+        margin: 15px auto 25px;
+    }
+
+    .logo_box {
+        width: 600px;
+        margin: 0 auto 40px;
+        padding: 30px 0 0;
+    }
+
+    .video_box {
+        width: 600px;
+        height: 338px;
+        margin: 0 auto;
+    }
+
+    .insta_btn2 {
+        height: 45px;
+        width: 175px;
+        line-height: 45px;
+        font-size: 20px;
+    }
+
+    .insta_btn2 .fa-instagram {
+        font-size: 28px;
+        top: 3px;
+    }
+
+    .logo_box img {
+        width: 350px;
+        margin: 50px auto 40px;
+    }
+
+    .video_box:before {
+        height: 315px;
+    }
+
+    .video_box:after {
+        height: 315px;
+    }
+
+    .logo_box p {
+        font-size: 14px;
+    }
+
+    .logo_box .logo_box_title {
+        font-size: 16px;
+    }
+
+    .logo_box .logo_box_sub_title {
+        font-size: 16px;
+        padding-right: 75px;
+    }
+
+    .logo_box .logo_box_sub_title span {
+        position: absolute;
+        top: -105px;
+        right: 0px;
+        width: 100px;
+    }
+
+    .video-play-button {
+        top: 170px;
+    }
+
+    .section_header_community02 p {
+        font-size: 26px;
+    }
+
+    .section_header .section_header_p {
+        font-size: 24px;
+    }
+
+    .section_header .section_header_p_sub {
+        font-size: 16px;
+    }
+
+    .div_Information_link {
+        font-size: 14px;
+    }
+
+    .section_inner_revers .div_Information_link {
+        text-align: right;
+        font-size: 14px;
+    }
+
+    .video-overlay iframe {
+        width: 600px;
+    }
+
+}
+
+/* ===============================================
+　　Ipad　メデェアクエリここから 667px -
+=============================================== */
+@media (max-width:667px) {
+
+    .display_667px_off {
+        display: none;
+    }
+
+    .display_667px_on {
+        display: block;
+    }
+
+    header,
+    header div,
+    header nav,
+    header nav ul {
+        height: 50px;
+    }
+
+    header {
+        padding: 0 20px;
+    }
+
+    .smp_567px_use {
+        margin: 0 10px;
+    }
+
+    header div,
+    .flex_1 {
+        margin: 0;
+    }
+
+    .main,
+    .main>div {
+        margin-top: 50px;
+    }
+
+    .nav-open .main>div {
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+    .footer_667_none {
+        display: none;
+    }
+
+    .display_667px_on {
+        display: block;
+    }
+
+    .display_667px_off {
+        display: none;
+    }
+
+    .controls_02 button[type="submit"] {
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .category_seller_BOX {
+        padding: 0 0 0 6px;
+    }
+
+    .open .toggle_btn100 .line-1,
+    .open .toggle_btn100 .line-3 {
+        top: 28px;
+    }
+
+    h2 {
+        margin-bottom: 30px;
+        font-size: 22px;
+        padding-left: 15px;
+    }
+
+    h2::before {
+        top: -20px;
+        font-size: 44px;
+    }
+
+    h3 {
+        font-size: 24px;
+        padding-left: 15px;
+        margin: 30px 0 50px;
+    }
+
+    h3 span {
+        margin-left: -15px;
+    }
+
+    header nav ul li .li_rearch_child li {
+        height: 250px;
+        overflow-y: scroll;
+    }
+
+    header .nav_rearch ul>li>span {
+        margin-left: 1em;
+        padding: 12px 0;
+    }
+
+    header .nav_rearch label {
+        font-size: 14px;
+    }
+
+    /* top*/
+    .star-box04 {
+        top: 145px;
+    }
+
+    .kv_div p {
+        text-align: center;
+        margin-top: 75px;
+        color: #fff;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .kv_div a {
+        width: 50px;
+        height: 50px;
+    }
+
+    .kv_bottom_area_inner {
+        width: 100%;
+        margin: 20px auto;
+        padding: 0 4%;
+    }
+
+    .Official_line_follow {
+        display: none;
+    }
+
+    .floor_list__head h2 {
+        font-size: 22px;
+        text-indent: 0;
+    }
+
+    .floor_list__head p {
+        font-size: 12px;
+        text-indent: 0;
+    }
+
+    .floor_list {
+        margin: 10px 0;
+    }
+
+    /*  マーケット　*/
+
+    .event_date span {
+        font-size: 10px;
+    }
+
+    .history_link {
+        margin-top: 5px;
+        font-size: 12px;
+        top: 0;
+        right: 0;
+    }
+
+    .market_head_p {
+        font-size: 11px;
+        letter-spacing: 2;
+        font-weight: 400;
+        padding-top: 8px;
+    }
+
+    .market_head_p::after {
+        top: -3px;
+    }
+
+    .key_word_style {
+        margin: 0 auto 35px;
+    }
+
+    p.pagenavi {
+        margin: 0px auto 15px;
+    }
+
+    .mall_categories {
+        padding-bottom: 6px;
+        margin: 10px 0 5px;
+    }
+
+    .pagenavi_num {
+        font-size: 12px;
+        padding: 5px 0 2px;
+        margin-bottom: 30px;
+    }
+
+    .controls_02 button[type="submit"] {
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .item,
+    .item_job,
+    .course {
+        margin-bottom: 30px;
+    }
+
+    .course {
+        margin: 0 calc(1%/2) 30px 0;
+        width: 33%;
+    }
+
+    .course:nth-child(4n) {
+        margin-right: calc(1%/2);
+    }
+
+    .course:nth-child(3n) {
+        margin-right: 0;
+    }
+
+    .price_box {
+        height: 25px;
+        line-height: 25px;
+    }
+
+    .price_box p.mistumori_price {
+        top: -1px;
+    }
+
+    .price_box span.mistumori_price_span {
+        font-size: 14px;
+    }
+
+    .price_box p.capacity_num {
+        bottom: 4px;
+        font-size: 10px;
+    }
+
+    .category_seller_IMG {
+        width: 30px;
+        height: 30px;
+        padding-top: 3px;
+    }
+
+    .category_seller_IMG img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .category_seller_BOX {
+        padding: 0 0 0 6px;
+    }
+
+    .category_seller_BOX_2 {
+        padding: 0 0 0 8px;
+    }
+
+    .category_seller_BOX p {
+        font-size: 10px;
+        margin: 2px;
+    }
+
+    .item_exhibition_btn {
+        right: 20px;
+        bottom: 20px;
+    }
+
+    .item_exhibition_btn img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .sf-back-to-top {
+        left: 20px;
+        bottom: 20px;
+    }
+
+    .sf-back-to-top img {
+        width: 70px;
+        height: 70px;
+    }
+
+    /*  乗算　*/
+
+    .correspondence_color {
+        top: 117;
+    }
+
+
+    /*  マーケット　商品詳細ページ　*/
+
+    .container_slider {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .container_detail {
+        width: 100%;
+        margin: 0 auto 70px;
+    }
+
+    .detaile_inner_right02,
+    .detaile_inner_left02 {
+        width: 96%;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .item_info {
+        margin: 55px 0 0 0;
+    }
+
+    .item_info p {
+        font-size: 12px;
+        margin: 3px 0;
+    }
+
+    span.price_info {
+        font-size: 10px;
+        color: #4d4d4d;
+    }
+
+    .course_detail_thumbnail {
+        width: 500px;
+        height: 281px;
+        margin: 60px auto auto;
+    }
+
+    table.table_newstyle th {
+        font-size: 13px;
+        padding: 14px 10px 13px 15px;
+        width: 80px;
+    }
+
+    table.table_newstyle td {
+        font-size: 14px;
+        padding: 14px 10px 13px 15px;
+    }
+
+    table.table_newstyle_smp th {
+        font-size: 13px;
+        padding: 14px 10px 13px 15px;
+        width: 150px;
+    }
+
+    .teacher_img_box {
+        width: 230px;
+    }
+
+    .teacher_img {
+        width: 80px;
+        height: 80px;
+        margin: 10px auto 8px;
+    }
+
+    .teacher_contact {
+        width: 140px;
+    }
+
+    .teacher_contact input[type="submit"] {
+        width: 110px;
+        letter-spacing: 1;
+    }
+
+    .teacher_text {
+        width: 370px;
+    }
+
+    .btn_newstyle_purple input[type="submit"] {
+        margin: 30px auto 0;
+    }
+
+    .total_amount_box p {
+        padding: 35px 0 0 25px;
+    }
+
+    .cntreq_E {
+        right: -100px;
+    }
+
+    /*  detail 動画詳細ページ　*/
+
+    .Item_registration_bannar {
+        width: 600px;
+    }
+
+    .course_section_div {
+        max-width: 600px;
+    }
+
+    .video_area_desc {
+        padding: 20px 2%;
+        border-bottom: none;
+    }
+
+    div.video_area {
+        margin: 0;
+    }
+
+    .container_inner_lesson .section_list {
+        width: 100%;
+    }
+
+    .detaile_course_inner_right {
+        width: 100%;
+    }
+
+    .detaile_course_inner_right h2 {
+        padding-left: 2%;
+    }
+
+    .course_section_list_BOX {
+        padding: 0 2%;
+    }
+
+    .detaile_course_inner_right .section_list a {
+        background-color: #fff;
+        padding: 25px 3%;
+    }
+
+    .section_detail_img_BOX {
+        width: 100%;
+    }
+
+    .course_section_section {
+        width: 600px;
+    }
+
+    .section_list {
+        max-height: inherit;
+    }
+
+    .section_chapter_h3:before {
+        width: 520px;
+    }
+
+    .section_list_detail {
+        width: 600px;
+    }
+
+    /*access*/
+    .section_www_info {
+        padding: 10px 3%;
+        margin-bottom: 50px;
+    }
+
+    .breadcrumb {
+        padding: 10px 3% 0;
+    }
+
+    .sectionTtl {
+        font-size: 20px;
+    }
+
+    .sectionTtl::before {
+        height: 20px;
+    }
+
+    .sectionTtl::after {
+        height: 20px;
+    }
+
+    .information_bg,
+    .information_bg:before {
+        height: 150px;
+    }
+
+    .information_bg .sectionTtl {
+        line-height: 150px;
+        height: 150px;
+    }
+
+
+    .guide_bg,
+    .guide_bg:before,
+    .guide_bg .sectionTtl {
+        height: 150px;
+    }
+
+    .sectionHd {
+        margin-bottom: 20px;
+    }
+
+    .about_contain {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+
+    .about_content li a {
+        padding: 15px 3%;
+    }
+
+    .about_content {
+        width: 100%;
+    }
+
+    .thema_flex_text img {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    h3 {
+        padding: 0;
+    }
+
+    h3 span {
+        margin: 0;
+    }
+
+    .information_bg_ {
+        display: none;
+    }
+
+    .table_form_law {
+        margin: 20px 0;
+    }
+
+    .return_a {
+        font-size: 12px;
+        margin: 40px 0 40px;
+        text-align: center;
+        display: block;
+        color: #595757;
+    }
+
+    .table_company th {
+        padding: 20px 10px;
+        width: 130px;
+    }
+
+}
+
+
+/* ===============================================
+　　Ipad　メデェアクエリここから 568px -
+=============================================== */
+@media (max-width:568px) {
+    /*  マーケット　*/
+
+    .event_date span {
+        font-size: 12px;
+    }
+
+    .history_link {
+        top: -10;
+        right: -20;
+    }
+
+    .item,
+    .item_job {
+        margin: 0 calc(1%/2) 30px 0;
+        width: 33%;
+    }
+
+    .item:nth-child(5n),
+    .item_job:nth-child(5n) {
+        margin-right: calc(1%/2);
+    }
+
+    .item:nth-child(4n),
+    .item_job:nth-child(4n) {
+        margin-right: calc(1%/2);
+    }
+
+    .item:nth-child(3n),
+    .item_job:nth-child(3n) {
+        margin-right: 0;
+    }
+
+    /*  乗算　*/
+
+    .correspondence_color {
+        top: 136;
+    }
+
+
+    /*  マーケット　商品詳細ページ　*/
+
+
+    .container_slider {
+        max-width: 100%;
+    }
+
+    .container_detail {
+        width: 100%;
+    }
+
+    .item_info {
+        margin: 55px 0 0 0;
+    }
+
+    .item_info p {
+        font-size: 12px;
+        margin: 3px 0;
+    }
+
+    #item_share {
+        width: 100%;
+        height: 43px;
+        padding-top: 0px;
+    }
+
+    .sales_info_left {
+        float: none;
+        width: 100%;
+    }
+
+    .sales_info_right {
+        float: none;
+        width: 100%;
+    }
+
+    .sales_info_right table.table_newstyle:first-child {
+        border-top: none;
+    }
+
+    .course_detail_thumbnail {
+        width: 100%;
+        height: 281px;
+        margin: 60px auto auto;
+    }
+
+    table.table_newstyle th {
+        font-size: 13px;
+        padding: 14px 10px 13px 35px;
+        width: 150px;
+    }
+
+    table.table_newstyle td {
+        font-size: 14px;
+        padding: 14px 10px 13px 35px;
+    }
+
+    table.table_newstyle_smp th {
+        font-size: 13px;
+        padding: 14px 10px 13px 35px;
+        width: 150px;
+    }
+
+    .tax_box {
+        width: 20%;
+    }
+
+    .total_amount_box {
+        width: 80%;
+    }
+
+    .teacher_img_box {
+        width: 100px;
+        float: left;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .teacher_img {
+        width: 80px;
+        height: 80px;
+        margin: 10px auto 8px;
+    }
+
+    .teacher_contact {
+        width: 140px;
+    }
+
+    .teacher_text {
+        width: calc(100% - 120px);
+    }
+
+    .btn_newstyle_purple_m {
+        margin-bottom: 0px;
+    }
+
+    .btn_newstyle_purple input[type="submit"] {
+        margin: 30px auto 0;
+    }
+
+    .tax_box p {
+        padding: 35px 0 0 35px;
+    }
+
+
+    .total_amount_box p {
+        font-size: 14px;
+        padding: 35px 0 0 10px;
+    }
+
+    .amount_unit img {
+        left: -2px;
+    }
+
+    .price_amount_box p.amount_p {
+        font-size: 36px;
+    }
+
+    .cntreq_E {
+        right: -150px;
+    }
+
+    .ivent_day_time p {
+
+        font-size: 12px;
+        padding: 0px 15px;
+    }
+
+    .ivent_day_time {
+        width: 100%;
+        height: auto;
+    }
+
+    .txt {
+        width: 100%;
+        margin: 40px auto 4px;
+    }
+
+    .section_payment,
+    .section_payment2 {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .payment_title h4 {
+        width: 100%;
+    }
+
+    .generic02 {
+        width: 100%;
+        margin: 0 auto 40px;
+    }
+
+    .generic02 th {
+        width: 150px;
+        padding: 0 0 0 25px;
+    }
+
+    .generic02 td {
+        padding: 0 0 0 25px;
+    }
+
+    .note {
+        bottom: -26px;
+        left: 25px;
+    }
+
+
+}
+
+/* ===============================================
+　　メデェアクエリここから 567px -
+=============================================== */
+@media (max-width:567px) {
+
+    #contents {
+        margin-bottom: 0px;
+    }
+
+    .kv_div p {
+        margin-top: 50px;
+    }
+
+    .kv_bottom_area .sns_kv {
+        margin: -55px -20px 10px;
+    }
+
+    .display_567px_on {
+        display: block;
+    }
+
+    .display_567px_off {
+        display: none;
+    }
+
+    .smp_567px_use a {
+        width: 30px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-size: 24px;
+        color: #ac984e;
+    }
+
+    .section_www {
+        width: 100%;
+        height: 100vh;
+        margin: 40px auto 90px;
+        box-shadow: none;
+        border-radius: 6px;
+        padding: 60px 5%;
+        background-color: none;
+    }
+
+    .section_www_regist,
+    .section_www {
+        width: 100%;
+        margin: 0 auto;
+        padding: 50px 4%;
+    }
+
+    .section_www_regist_inner {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .login_form_input {
+        margin: 30px auto 0;
+        width: 320px;
+    }
+
+    .iPhone_text ol,
+    .android_text ol {
+        padding-left: 0;
+    }
+
+    .Official_line {
+        font-size: 12px;
+        width: 50%;
+        line-height: inherit;
+        text-align: left;
+    }
+
+    .guide_section_contain h1 {
+        font-size: 32px;
+        margin-top: 25px;
+        height: 100px;
+    }
+
+    .floor_list__item {
+        padding: 0 2%;
+        background-position: 98%;
+    }
+
+    .floor_list__head {
+        width: 100%;
+        padding: 20px 0 20px 0;
+    }
+
+    .floor_list__desc {
+        width: 100%;
+        padding: 0 5% 0 0;
+        margin-bottom: 30px;
+    }
+
+    .floor_list__item a {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .floor_list__head p {
+        font-size: 12px;
+        text-indent: 0;
+        margin: 0;
+    }
+
+    .guide_section_contain h1:before {
+        top: 65px;
+    }
+
+    .section_www_config,
+    .section_www_contact,
+    .section_www_reminder {
+        width: 92%;
+    }
+
+    .section_www_rule {
+        width: 96%;
+    }
+
+    /* ---- ガイド　詳細ページ ---- */
+    .guide_list li {
+        display: block;
+        padding-top: 0;
+    }
+
+    .guide_list li a {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+
+    /* お知らせ*/
+
+    .inner-articlePage {
+        padding: 0 3% 0;
+    }
+
+    .breadcrumb .inner a,
+    .breadcrumb .inner span {
+        margin-right: 12px;
+        font-size: 10px;
+    }
+
+    .newsListPage_item a {
+        display: flex;
+        padding: 20px 0;
+        border-bottom: solid 1px #f5f5f5;
+    }
+
+    .newsListPage_date {
+        margin-right: 15px;
+        font-size: 14px;
+    }
+
+    .newsListPage_ttl {
+        width: 100%;
+        font-size: 15px;
+    }
+
+
+    .newsListPage {
+        padding: 35px 0 64px;
+    }
+
+    .articlePage_contents_photo {
+        margin: 35px 0 0;
+    }
+
+    .breadcrumb .inner .top_pankuzu::before {
+        width: 6px;
+        height: 8px;
+        left: 38px;
+        margin-top: -4px;
+    }
+
+    .breadcrumb .inner .guide_pankuzu::before {
+        width: 6px;
+        height: 8px;
+        left: 70px;
+        margin-top: -4px;
+    }
+
+    .breadcrumb .inner a::before {
+        width: 6px;
+        height: 8px;
+        left: 50px;
+        margin-top: -4px;
+    }
+
+    .articlePage_contents_ttl {
+        font-size: 24px;
+        line-height: 1.4;
+    }
+
+    .articlePage_contents_date {
+        margin-top: 5px;
+        font-size: 14px;
+    }
+
+    /*マーケット*/
+
+    .LINEUP_BOX,
+    .section_research,
+    .floor_name,
+    .div_floor_title {
+        width: 98%;
+    }
+
+    .LINEUP_BOX_list {
+        width: 100%;
+    }
+
+    .price_box_2 {
+        margin: 1px 0 2px;
+    }
+
+    .price_box_2 p {
+        font-size: 18px;
+    }
+
+    .price_box p {
+        font-size: 16px;
+    }
+
+    .preview_LINEUP_BOX {
+        display: block;
+        height: auto;
+    }
+
+    .preview_img_text_box {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .search-area {
+        margin: 25px auto;
+    }
+
+    .detaile_container {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .item_name {
+        font-size: 22px;
+    }
+
+    .item_name_course {
+        width: calc(100% - 60px);
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        margin: 10px 0 0;
+        letter-spacing: 1;
+        height: 42px;
+        font-size: 16px;
+    }
+
+    .item_name_course span {
+        display: none;
+    }
+
+    .text_wrapper {
+        margin: 0 0 30px;
+    }
+
+    #item_share button.js-copybtn {
+        width: 100%;
+    }
+
+    .spinner_area input[type="number"] {
+        width: 50px;
+    }
+
+    dt {
+        width: 100px;
+    }
+
+    dd {
+        width: calc(100% - 100px);
+    }
+
+    .item_info_box04 input[type="submit"] {
+        margin-bottom: 10px;
+    }
+
+    /*  マーケット　商品詳細ページ　*/
+
+    .container_slider_return {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 80px;
+        height: 80px;
+        text-align: left;
+        padding: 15px;
+        font-size: 25px;
+        z-index: 100;
+        color: #fff;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+    }
+
+    .detaile_inner_right {
+        width: 96%;
+        margin: 0 auto;
+    }
+
+    .item_info {
+        margin: 0;
+    }
+
+    .sp-buttons {
+        top: 10px !important;
+    }
+
+    span.price_info2 {
+        font-size: 10px;
+        color: #4d4d4d;
+        line-height: 1.5;
+        display: block;
+        position: absolute;
+        top: 20;
+    }
+
+    span.price_info3 {
+        font-size: 10px;
+        color: #4d4d4d;
+        line-height: 1.5;
+        display: block;
+        position: absolute;
+        top: 35;
+    }
+
+    span.price_info4 {
+        font-size: 10px;
+        color: #4d4d4d;
+        line-height: 1.5;
+        display: block;
+        position: absolute;
+        top: 30;
+    }
+
+    .item_info .item_info_id {
+        font-size: 14px;
+    }
+
+    .item_info p {
+        font-size: 15px;
+        margin: 3px 0;
+    }
+
+    .item_info .startdate_NEW {
+        margin-top: 20px;
+    }
+
+    .item_info_left,
+    .item_info_right {
+        float: none;
+        width: 100%;
+    }
+
+    .item_info_price_box_smp {
+        min-height: 65px;
+        padding: 0px;
+        margin: 25px 0 0 0;
+        position: relative;
+    }
+
+    .item_info_price_box_smp p {
+        font-size: 26px;
+        font-family: 'Kumbh Sans', sans-serif;
+        color: #ab951d;
+        text-align: left;
+    }
+
+    .item_info_price_box_smp .purchased_text {
+        font-size: 18px;
+    }
+
+    .item_supple_text p {
+        font-size: 13px;
+    }
+
+
+    .item_info_text .text_title {
+        font-size: 15px;
+    }
+
+    .item_supple_text {
+        padding: 12px 15px;
+        height: 150px;
+    }
+
+    #item_share {
+        width: 100%;
+        height: 43px;
+        padding-top: 0px;
+    }
+
+    .sales_info_left {
+        float: none;
+        width: 100%;
+    }
+
+    .sales_info_right {
+        float: none;
+        width: 100%;
+    }
+
+    .sales_info_right table.table_newstyle:first-child {
+        border-top: none;
+    }
+
+    .smp_fixed p {
+        font-size: 20px;
+    }
+
+    .item_info_text p {
+        font-size: 15px;
+    }
+
+    .course_detail_thumbnail {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .purple_color_button {
+        margin: 2px auto;
+    }
+
+    table.table_newstyle th {
+        font-size: 13px;
+        padding: 14px 10px 13px 25px;
+        width: 120px;
+    }
+
+    table.table_newstyle td {
+        font-size: 14px;
+        padding: 14px 10px 13px 25px;
+    }
+
+    table.table_newstyle_smp th {
+        font-size: 13px;
+        padding: 14px 10px 13px 25px;
+        width: 120px;
+    }
+
+    .teacher_img_box {
+        width: 130px;
+        float: left;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .teacher_img {
+        width: 80px;
+        height: 80px;
+        margin: 10px auto 8px;
+    }
+
+    .teacher_contact {
+        width: 140px;
+    }
+
+    .teacher_contact input[type="submit"] {
+        width: 130px;
+        letter-spacing: 2;
+    }
+
+    .teacher_text {
+        width: calc(100% - 130px);
+    }
+
+    .use_912px {
+        display: contents;
+    }
+
+    .smp_bottom_button_fixed {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto 0 0;
+        width: 100%;
+        height: 60px;
+        background-color: #f3f8f6;
+        padding: 6px 2% 0;
+        z-index: 99;
+    }
+
+
+    .smp_bottom_button_fixed input[type="submit"] {
+        margin: 0 auto;
+        width: 100%;
+        font-size: 15px;
+        background-image: none;
+        letter-spacing: 1;
+    }
+
+    .animetion_input:before,
+    .animetion_input:after {
+        content: none;
+    }
+
+    .btn_newstyle_purple .animetion_input input[type="submit"] {
+        height: 40px;
+        line-height: 40px;
+        font-size: 14px;
+    }
+
+    .animetion_input {
+        width: 100%;
+        height: 100%;
+        margin: 30px auto 0px;
+    }
+
+    .tax_box p {
+        padding: 35px 0 0 35px;
+    }
+
+
+    .total_amount_box p {
+        font-size: 14px;
+        padding: 35px 0 0 50px;
+    }
+
+    .amount_unit img {
+        left: -2px;
+    }
+
+    .price_amount_box p.amount_p {
+        font-size: 36px;
+        padding: 42px 10px 0px 0;
+    }
+
+    .cntreq_E {
+        right: -150px;
+    }
+
+    .ivent_day_time p {
+
+        font-size: 12px;
+        padding: 0px 15px;
+    }
+
+    .table_information {
+        width: 100%;
+    }
+
+    .relation_h3 {
+        margin: 0px auto 30px;
+        width: 98%;
+    }
+
+    .open_time_box {
+        display: block;
+    }
+
+    .open_time {
+        padding: 2px;
+    }
+
+
+    /*見積り設定　ここから */
+    .process_table tr td {
+        padding: 25px;
+    }
+
+    /*出品　ここから */
+    .msg_add_p_left {
+        font-size: 15px;
+    }
+
+    .section_edit h3,
+    .section_biz h3,
+    .icon_title_box_right {
+        font-size: 18px;
+    }
+
+
+
+    .mypage_table_main_style tr:nth-child(odd) th,
+    .mypage_table_main_style tr:nth-child(even) th {
+        background-color: #fff;
+        padding: 10px 10px 10px 10px;
+        font-weight: normal;
+    }
+
+    .mypage_table_main_style tr:nth-child(even) td,
+    .mypage_table_main_style tr:nth-child(odd) td {
+        background-color: #fff;
+        padding: 10px 30px 10px 10px;
+        font-size: 15px;
+    }
+
+
+    .mypage_table_main_style input[type="date"],
+    .mypage_table_main_style input[type="time"] {
+        -webkit-appearance: none;
+        width: 80%;
+        border: none;
+        text-align: right;
+        direction: rtl;
+        font-size: 14px;
+    }
+
+    .mypage_table_main_style input[type="number"],
+    .mypage_table_main_style input[type="text"] {
+        width: 100%;
+        border: none;
+        text-align: right;
+        font-size: 14px;
+    }
+
+    .mypage_table_main_style_p {
+        font-size: 13px;
+        margin: 25px 0 5px 10px;
+    }
+
+    .mypage_table_main_style th {
+        width: 120px;
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .simulation th {
+        width: 170px;
+        padding-left: 0;
+    }
+
+    .mypage_table_main_style td {
+        font-size: 14px;
+        width: calc(100vw - 120px);
+        text-align: right;
+        padding-right: 20px;
+        background: url(/img/common/arrow_333.png) no-repeat right;
+        background-position: 95% center;
+    }
+
+    .mypage_table_main_style input[type="number"] {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .mypage_table_main_style select {
+        padding: 0;
+        font-size: 15px;
+    }
+
+    .regi_fee_title_add h3 {
+        font-size: 15px;
+        font-weight: normal;
+        margin: 0;
+        padding: 0 10px 0 10px;
+        background: none;
+        position: relative;
+        text-indent: 0px;
+        text-align: left;
+    }
+
+    .background_none_fff {
+        background: none, #fff !important;
+    }
+
+    .regi_fee_title_add {
+        width: 100%;
+        margin: 40px 0 10px;
+    }
+
+    .flex_box_div_ {
+        display: block;
+    }
+
+    .add_course_text,
+    .add_course_text02 {
+        width: 96%;
+        margin-bottom: 30px;
+    }
+
+    .add_course_text02 {
+        width: 96%;
+    }
+
+    .add_course_text:before,
+    .add_course_text02:before {
+        top: -35px;
+        left: -5px;
+        font-size: 160px;
+        color: #fafafa;
+    }
+
+
+    .ui-datepicker table {
+        table-layout: fixed !important;
+    }
+
+    /* お問い合わせ*/
+    .table_form_contact th {
+        width: 120px;
+        padding: 15px 0 15px 15px;
+        font-weight: bold;
+    }
+
+    .table_form_contact td {
+        padding: 15px 15px 15px 0;
+    }
+
+    .table_form_contact textarea {
+        padding: 5px 5px;
+    }
+
+}
+
+
+/* ===============================================
+　　Ipad　メデェアクエリここから 500px -
+=============================================== */
+@media (max-width:500px) {
+
+    .display_768px_on {
+        padding: 0 10px;
+    }
+
+    .flex_1 {
+        margin: 0;
+        width: 100%;
+    }
+
+    header .nav_rearch ul .li_rearch {
+        margin-left: 15px;
+    }
+
+    header nav ul li:hover .li_rearch_child {
+        display: block;
+        position: fixed;
+        top: 45px;
+        left: 5px;
+        right: 5px;
+    }
+
+    header .nav_rearch ul li ul li {
+        width: 100%;
+    }
+
+    header .nav_rearch ul>li>span {
+        margin-left: 2em;
+    }
+
+    /*  マーケット　*/
+
+    .LINEUP_BOX,
+    .section_research,
+    .floor_name {
+        width: 98%;
+        margin: 0 auto;
+    }
+
+    ,
+    .div_floor_title {
+        width: 98%;
+    }
+
+    .floor_name {
+        width: 98%;
+        margin: 10px auto;
+    }
+
+    .li_rearch_icon {
+        top: -3px;
+    }
+
+    .history_link {
+        top: -10;
+        right: 0;
+    }
+
+    .mall_categories {
+        width: 94%;
+        padding-bottom: 6px;
+        margin: 10px auto 0px;
+    }
+
+    .mall_categories label {
+        margin: 5px 20px 5px 0;
+    }
+
+    .key_word_style {
+        width: 86%;
+        margin: 0 auto 15px;
+        position: relative;
+    }
+
+    .accordion-container {
+        width: 86%;
+        margin: -10px auto 25px;
+    }
+
+    .accordion-content {
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .overflow_clamp_2_14px {
+        font-size: 13px !important;
+        margin-bottom: 10px;
+    }
+
+    .course {
+        margin: 0 calc(2%/1) 25px 0;
+        width: 49%;
+    }
+
+    .course:nth-child(4n) {
+        margin-right: 0px;
+    }
+
+    .course:nth-child(3n) {
+        margin-right: calc(2%/1);
+    }
+
+    .course:nth-child(2n) {
+        margin-right: 0px;
+    }
+
+    /*  乗算 Skill　*/
+    .correspondence_color {
+        top: 124;
+    }
+
+    p.time {
+        font-size: 10px;
+        bottom: 0;
+        right: 5;
+    }
+
+
+    .add_course_text:before,
+    .add_course_text02:before {
+        top: -45px;
+        left: -5px;
+        font-size: 140px;
+    }
+
+}
+
+/* ===============================================
+　　スマホ　 480px
+=============================================== */
+@media (max-width:480px) {
+
+
+    /*  マーケット　*/
+
+    .history_link {
+        right: 10;
+    }
+
+    .mall_categories {
+        width: 94%;
+    }
+
+    .key_word_style {
+        width: 94%;
+    }
+
+    .accordion-container {
+        width: 94%;
+    }
+
+    .mall_categories_BOX input[type="text"] {
+        height: 38px;
+        line-height: 38px
+    }
+
+    .mall_categories_BOX input[type="submit"] {
+        font-size: 20px;
+    }
+
+
+    .item:nth-child(5n),
+    .item_job:nth-child(5n) {
+        margin-right: calc(1%/2);
+    }
+
+    .item:nth-child(4n),
+    .item_job:nth-child(4n) {
+        margin-right: calc(1%/2);
+    }
+
+    .item:nth-child(3n),
+    .item_job:nth-child(3n) {
+        margin-right: 0;
+    }
+
+
+    .price_box p.capacity_num {
+        font-size: 10px;
+    }
+
+    .sold_text p,
+    .full_text p,
+    .FINISHED_text p,
+    .FINISHED_course_text p {
+        font-size: 13px;
+    }
+
+
+    .add_course_text:before,
+    .add_course_text02:before {
+        top: -40px;
+        left: -5px;
+        font-size: 120px;
+    }
+
+    /*  乗算 Skill　*/
+    .correspondence_color {
+        top: 108;
+    }
+
+    /*  マーケット　商品詳細ページ　*/
+
+    table.table_newstyle th {
+        font-size: 13px;
+        padding: 14px 10px 13px 25px;
+        width: 120px;
+    }
+
+    .teacher_img_box {
+        width: 100%;
+        float: none;
+    }
+
+    .teacher_text {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .btn_credit_style button[type="submit"] {
+        width: 280px;
+    }
+
+}
+
+/* ===============================================
+　　Ipad　メデェアクエリここから 428px -
+=============================================== */
+@media (max-width:428px) {
+
+    .display_other_logo_120px {
+        display: block;
+    }
+
+    .display_425px_off,
+    .display_other_logo {
+        display: none;
+    }
+
+    .nav_search_BOX100 .inner {
+        padding: 20px 3% 25px;
+    }
+
+    .nav_search_BOX100 {
+        border-radius: 0 0 20px 20px;
+    }
+
+
+
+    header {
+        padding: 0 0 0 10px;
+    }
+
+    header a img {
+        width: 120px;
+    }
+
+    header div,
+    header nav {
+        margin: auto 0;
+        box-sizing: border-box;
+    }
+
+    .global-nav {
+        right: -280px;
+        width: 280px;
+    }
+
+    .nav-open .hamburger {
+        right: auto;
+        left: 20px;
+    }
+
+
+    .header_hamburge {
+        width: 40px;
+    }
+
+    .smp_450_on {
+        display: inline-block;
+    }
+
+    .smp_425_on {
+        display: block;
+    }
+
+    .sf-back-to-top {
+        left: 20px;
+        bottom: 20px;
+    }
+
+    .sf-back-to-top img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .popup-inner_alert {
+        padding: 10px 20px;
+        border-radius: 15px;
+    }
+
+    .dummy__btn {
+        background-image: none;
+    }
+
+    .flex_box_alert {
+        justify-content: flex-end;
+    }
+
+    .close-btn_alert {
+        width: auto;
+        border: none;
+        font-size: 16px;
+    }
+
+    .flex_box_alert #submit-btn_alert {
+        width: 40px;
+        background: none;
+        color: #1b65eb;
+        font-weight: bold;
+        margin: 0 0 0 30px;
+        font-size: 16px;
+    }
+
+    header a img {
+        filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, .4));
+    }
+
+    h3 {
+        margin: 20px 0 40px;
+    }
+
+    .table_form_contact input[type="text"],
+    .table_form_contact textarea,
+    .input_next___buttonstyle input[type="button"] {
+        font-size: 16px;
+    }
+
+    .table_form_contact input[type="text"] {
+        padding: 5px 10px;
+    }
+
+
+    /* 特商法*/
+
+    .input_Yes___buttonstyle input[type="submit"] {
+        width: 260px;
+        margin: 25px auto 0;
+    }
+
+    .input_No___buttonstyle input[type="submit"] {
+        width: 260px;
+        margin: 25px auto 20px;
+    }
+
+    .input_No___buttonstyle a {
+        width: 260px;
+        margin: 10px auto 50px;
+    }
+
+
+    /*  リマインダー  */
+    .section_www_reminder {
+        width: 100%;
+        margin: 40px auto 20px;
+        padding: 40px 10px;
+    }
+
+    .section_www_reminder_form input[type="text"] {
+        width: 92%;
+        margin: 0 4%;
+        font-size: 16px;
+    }
+
+    /*　利用規約　*/
+    .section_www_rule {
+        width: 100%;
+        margin: 0px auto 20px;
+        padding: 0 4%;
+    }
+
+    .section_www_rule h3 {
+        padding-left: 5px;
+    }
+
+    .section_www_rule h3 span {
+        margin-left: -55px;
+    }
+
+    .section_www_rule li {
+        letter-spacing: 0;
+    }
+
+    /*　ログイン　*/
+    .section_www {
+        width: 100%;
+        margin: 0px auto;
+        padding: 50px 2% 0;
+        box-shadow: none;
+    }
+
+    .popup-inner {
+        padding: 15px 20px;
+    }
+
+    .section_www_regist_info {
+        padding: 30px 0px;
+    }
+
+    .section_www_regist_info h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .login_form_input p {
+        font-size: 14px;
+        margin-bottom: 5px;
+        font-weight: bold;
+
+    }
+
+    .login_form_input input[type="submit"] {
+        width: 250px;
+    }
+
+    p.login_keep {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    p.login_keep label {
+        font-size: 12px;
+    }
+
+    /* お問い合わせ*/
+    .section_www_contact {
+        width: 100%;
+        margin: 0px auto 20px;
+        padding: 0 2%;
+        overflow-x: hidden;
+    }
+
+    .section_www_contact h3 {
+        padding-left: 5px;
+    }
+
+    .section_www_contact h3 span {
+        margin-left: -55px;
+    }
+
+    .section_www_contact .table_form_contact {
+        width: 100vw;
+        margin-left: -4%;
+    }
+
+    .section_www_contact th {
+        width: 110px;
+        padding: 12px 10px;
+    }
+
+    .section_www_contact td {
+        padding: 12px 10px;
+        color: #595757;
+    }
+
+    /* アイコン設定*/
+    .section_www_config {
+        width: 100%;
+        padding: 0 4%;
+        margin: 0px auto 50px;
+    }
+
+    .section_www_config h2 {
+        margin-top: 50px;
+    }
+
+    .section_www_config h3 {
+        padding-left: 5px;
+    }
+
+    .section_www_config h3 span {
+        margin-left: -55px;
+    }
+
+    .thema_flex {
+        flex-direction: column;
+    }
+
+    .thema_flex_img {
+        width: 100%;
+        padding: 0 0 0 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icon_yumekana {
+        width: 35%;
+        object-fit: contain;
+    }
+
+    .iphon_icon {
+        width: 60%;
+        object-fit: contain;
+    }
+
+    .android_text {
+        margin-bottom: 0px;
+    }
+
+    /* 登録フォーム*/
+    .section_www_regist {
+        width: 100%;
+        margin: 0 auto;
+        padding: 30px 4%;
+    }
+
+    .section_www_regist_inner {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .section_www_regist p {
+        margin-bottom: 5px;
+    }
+
+    .regist_div_form input[type="text"] {
+        width: 100%;
+        height: 40px;
+        padding: 5px 10px;
+    }
+
+    .name_regi_input01 {
+        width: 48% !important;
+
+    }
+
+    .name_regi_input02 {
+        width: 48% !important;
+        margin-left: 4%;
+    }
+
+    .input_next___buttonstyle input[type="submit"] {
+        width: 280px;
+    }
+
+    .section_www_regist_check {
+        width: 100%;
+        margin: 40px auto;
+        padding: 30px 4%;
+    }
+
+    .section_www_regist_check p {
+        font-size: 14px;
+    }
+
+    .disabled {
+        width: 100%;
+        margin: 30px auto 0px;
+        padding: 10px 4% 20px;
+
+    }
+
+
+    .section_www_regist_comp {
+        width: 100%;
+        margin: 40px auto 100px;
+    }
+
+    .section_www_regist_comp .contact_BOX_title {
+        margin-top: 80px;
+    }
+
+
+    .section_www_regist_comp .contact_BOX_title::before {
+        top: -60px;
+        left: -50;
+        font-size: 150px;
+    }
+
+
+    /* top*/
+
+    .section_kv {
+        background-position: top;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        margin-top: -25px;
+    }
+
+    .kv_div {
+        width: 280px;
+        top: 100px;
+    }
+
+    .kv_bottom_area_inner {
+        width: 100%;
+        margin: 15px auto;
+    }
+
+    .kv_bottom_area_inner p {
+        font-size: 12px;
+    }
+
+    .concept_area_inner {
+        margin-top: 65px;
+        padding-top: 120px;
+        height: 750px;
+    }
+
+
+    .kv_bottom_area .sns_kv h1 {
+        font-size: 20px;
+    }
+
+    .section_concept_area h1,
+    .section_map_area h1 {
+        font-size: 24px;
+        margin: 0 auto 20px;
+    }
+
+    .concept_area_inner h1::before,
+    .section_map_area h1::before {
+        top: -45px;
+        font-size: 28px;
+    }
+
+    .section_concept_area p {
+        font-size: 14px;
+        line-height: 1.6;
+        letter-spacing: 1;
+    }
+
+    .concept_area_inner img {
+        width: 60px;
+    }
+
+    .star-box01 {
+        top: 150px;
+        right: -40px;
+    }
+
+    .star-box02 {
+        top: 60px;
+        left: 60px;
+    }
+
+    .star-box03 {
+        top: 250px;
+        left: 40px;
+    }
+
+    .star-box04 {
+        top: 185px;
+        right: 30px;
+    }
+
+    .section_map_area {
+        width: 100%;
+        height: auto;
+        margin: 80px auto 70px;
+    }
+
+    .div_map_guide {
+        width: 100%;
+    }
+
+    .div_map_guide p {
+        font-size: 14px;
+        letter-spacing: 1;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    .div_map_p_span {
+        margin-bottom: 20px;
+    }
+
+    .popup-inner {
+        width: 98%;
+    }
+
+    /* gaide market */
+    .guide_section_contain h1 {
+        font-size: 28px;
+        margin-top: 10px;
+        height: 100px;
+    }
+
+    .guide_section_contain h1:before {
+        top: 62px;
+    }
+
+    .floor_list__head {
+        padding: 20px 0 10px 0;
+    }
+
+    .item,
+    .item_job {
+        margin: 0 calc(2%/1) 25px 0;
+        width: 49%;
+    }
+
+    .item:nth-child(5n),
+    .item_job:nth-child(5n) {
+        margin-right: calc(2%/1);
+    }
+
+    .item:nth-child(4n),
+    .item_job:nth-child(4n) {
+        margin-right: 0;
+    }
+
+    .item:nth-child(3n),
+    .item_job:nth-child(3n) {
+        margin-right: calc(2%/1);
+    }
+
+    .item:nth-child(2n),
+    .item_job:nth-child(2n) {
+        margin-right: 0;
+    }
+
+}
+
+/* ===============================================
+　　スマホ　 414px iPhone 6/7/8 Plus
+=============================================== */
+@media (max-width:414px) {
+
+
+    /*  マーケット　*/
+
+    .t_cost_free {
+        font-size: 8px;
+        padding-left: 3px;
+    }
+
+
+    /*  乗算 Skill　*/
+    .correspondence_color {
+        top: 177;
+    }
+
+    p.discount_2 {
+        font-size: 12px;
+    }
+
+
+    /*  乗算 Movie　*/
+    p.discount_coruse_2 {
+        font-size: 12px;
+    }
+
+
+    /*  マーケット　商品詳細ページ　*/
+
+    table.table_newstyle th,
+    table.table_newstyle_smp th {
+        font-size: 13px;
+        padding: 14px 10px 13px 25px;
+        width: 120px;
+    }
+
+    .tax_box {
+        width: 10%;
+    }
+
+    .total_amount_box {
+        width: 90%;
+    }
+
+    .teacher_img {
+        width: 80px;
+        height: 80px;
+        margin: 10px auto 8px;
+    }
+
+    .btn_newstyle_purple {
+        position: fixed;
+        bottom: 8px;
+        right: 2%;
+        z-index: 1001;
+        width: 180px;
+    }
+
+    /*  マイページ　ＴＯＰ　*/
+    .mypage_menu_BOX {
+        height: auto;
+        margin-top: 70px;
+        padding: 30px 10px;
+    }
+
+    .data_img {
+        width: 330px;
+    }
+
+    .H_p {
+        left: 20px;
+    }
+
+    .point_currency .point_currency_812_none th {
+        padding: 0 20px;
+        height: 50px;
+    }
+
+    .point_currency .point_currency_812_none td {
+        padding: 0 20px;
+    }
+
+
+    .data_text table {
+        margin: 0;
+        width: 100%;
+    }
+
+    .data_text table th {
+        font-size: 14px;
+        padding: 10px 0 10px 10px;
+
+    }
+
+    .data_text table td {
+        font-size: 14px;
+        padding: 10px 0 10px 0px;
+
+    }
+
+
+
+}
+
+
+/* ===============================================
+　　Ipad　メデェアクエリここから 390px -
+=============================================== */
+@media (max-width:390px) {
+    .floor_info_text span {
+        font-size: 14px;
+    }
+
+    .floor_info_text img {
+        width: 135px;
+    }
+
+    .elevater_btn_flex a {
+        margin: 10px 15px;
+    }
+
+    .elevater_btn:before {
+        left: 80px;
+    }
+
+    .elevater_btn:after {
+        top: -35px;
+        left: 100px;
+    }
+
+    .video_box {
+        width: 345px;
+        height: 194px;
+        margin: 0 auto;
+    }
+
+    .section_header_community02 p {
+        font-size: 18px;
+        margin: 35px auto 25px;
+    }
+
+    .section_header .section_header_p {
+        font-size: 18px;
+    }
+
+    .section_header .section_header_p_sub {
+        font-size: 12px;
+        margin-top: 25px;
+    }
+
+    .section_www_form {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+    .add_course_text:before,
+    .add_course_text02:before {
+        top: -32px;
+        font-size: 105px;
+    }
+
+    /*  乗算 Skill　*/
+    .correspondence_color {
+        top: 177;
+    }
+
+    p.discount_2 {
+        font-size: 12px;
+    }
+
+    /*  マーケット　商品詳細ページ　*/
+
+    .tax_box {
+        width: 10%;
+    }
+
+    .total_amount_box {
+        width: 90%;
+    }
+
+    .teacher_img {
+        width: 80px;
+        height: 80px;
+        margin: 10px auto 8px;
+    }
+
+    .btn_newstyle_purple {
+        position: fixed;
+        bottom: 8px;
+        right: 2%;
+        z-index: 1001;
+        width: 180px;
+    }
+
+}
+
+
+/* ===============================================
+　　スマホ　384px 375px iPhone 6/7/8 and iPhone X
+=============================================== */
+@media (max-width:384px) {
+
+
+    /*  マーケット　商品詳細ページ　*/
+
+    table.table_newstyle td {
+        padding: 14px 10px 13px 10px;
+    }
+
+    .tax_box {
+        width: 10%;
+    }
+
+    .total_amount_box {
+        width: 90%;
+    }
+
+    .price_amount_box p.amount_p {
+        font-size: 30px;
+        padding: 42px 10px 0px 0;
+    }
+
+    .teacher_img {
+        width: 80px;
+        height: 80px;
+        margin: 10px auto 8px;
+    }
+
+    .btn_newstyle_purple {
+        position: fixed;
+        bottom: 8px;
+        right: 2%;
+        z-index: 1001;
+        width: 155px;
+    }
+
+    .btn_newstyle_purple input[type="submit"] {
+        font-size: 13px;
+        letter-spacing: 2;
+    }
+
+
+}
+
+/* ===============================================
+　　スマホ　 360px
+=============================================== */
+@media (max-width:360px) {
+
+
+    /*  マーケット　*/
+
+    .market_head_h2 {
+        font-size: 36px;
+    }
+
+    .pagenavi_num {
+        font-size: 10px;
+    }
+
+    /*  乗算 Skill　*/
+    .correspondence_color {
+        top: 153;
+    }
+
+    p.discount_2 {
+        font-size: 10px;
+    }
+
+    /*  乗算 Movie　*/
+
+    p.discount_coruse_2 {
+        font-size: 10px;
+    }
+
+    .btn_newstyle_purple {
+        position: fixed;
+        bottom: 8px;
+        right: 2%;
+        z-index: 1001;
+        width: 140px;
+    }
+
+    .btn_newstyle_purple input[type="submit"] {
+        font-size: 12px;
+        letter-spacing: 1;
+    }
+
+
+}
+
+/* ===============================================
+　　スマホ　 320px iPhone 5/SE
+=============================================== */
+@media (max-width:320px) {
+
+    .global-nav {
+        right: -100%;
+        width: 100%;
+    }
+
+    /* 表示された時用のCSS */
+    .nav-open .hamburger {
+        position: fixed;
+        left: calc(100% - 55px);
+        top: 15px;
+    }
+
+    .member_ID_inner_desc h2 {
+        width: 100px;
+    }
+
+
+    /*  マーケット　*/
+
+    .market_head_h2 {
+        font-size: 32px;
+    }
+
+    .pagenavi_num {
+        font-size: 10px;
+    }
+
+    div.item {
+        margin: 0 calc(2%/1) 20px 0;
+        width: 49%;
+    }
+
+    div.item:nth-child(5n) {
+        margin-right: calc(2%/1);
+    }
+
+    div.item:nth-child(4n) {
+        margin-right: 0px;
+    }
+
+    div.item:nth-child(3n) {
+        margin-right: calc(2%/1);
+    }
+
+    div.item:nth-child(2n) {
+        margin-right: 0px;
+    }
+
+    .correspondence_color {
+        top: 135;
+    }
+
+    p.discount_2 {
+        font-size: 10px;
+    }
+
+    /*  乗算 Movie　*/
+
+    p.discount_coruse_2 {
+        font-size: 10px;
+    }
+
+    .login_form_input {
+        margin: 30px auto 0;
+        width: 300px;
+    }
+
+
+}

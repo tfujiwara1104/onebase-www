@@ -1,0 +1,338 @@
+/*============
+member head hamburger
+=============*/
+
+/*============
+member head hamburger
+=============*/
+
+/* member head hamburger */
+
+.com_icon {
+    width: 30px;
+    display: flex;
+}
+
+.com_icon a {
+    color: #fff;
+}
+
+.mypage_icon_img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.mypage_icon_img_ {
+    width: 23px;
+    height: 23px;
+    margin: 0 auto 1px;
+}
+
+.mypage_icon_img:hover {
+    opacity: .7;
+}
+
+.mypage_icon_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header_login_btn {
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+.hamburger {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 300;
+}
+
+
+.hamburger__line {
+    position: absolute;
+    left: 11px;
+    width: 18px;
+    height: 2px;
+    background-color: #ac984e;
+    transition: all .6s;
+}
+
+.arrow_menu_footer {
+    font-size: 8px;
+    position: absolute;
+    right: 0;
+    padding-top: 13px;
+}
+
+.header_hamburge_mypage .hamburger__line--1 {
+    top: 18px;
+    display: none;
+}
+
+.hamburger__line--2 {
+    top: 10px;
+    left: 4px;
+    opacity: 1;
+    background: none;
+}
+
+.header_hamburge_mypage .hamburger__line--3 {
+    display: none;
+}
+
+.black-bg {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    background: rgba(0, 0, 0, .6);
+    visibility: hidden;
+    transition: all .6s;
+    cursor: pointer;
+    margin: 0;
+}
+
+
+
+.header_hamburge {
+    position: relative;
+    width: 40px;
+    height: 50px;
+}
+
+header .header_hamburge div {
+    margin: 0;
+}
+
+.global-nav {
+    position: fixed;
+    top: 0px;
+    right: -300px;
+    width: 300px;
+    height: 100vh;
+    background-color: #080808;
+    transition: all .5s;
+    z-index: 200;
+    margin: 0;
+}
+
+.global-nav_innar {
+    width: 100%;
+    height: 100vh;
+    z-index: 201;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+header .global-nav ul li {
+    width: 100% !important;
+}
+
+.global-nav_innar ul {
+    width: 100%;
+    height: auto;
+    margin: 10px 0 0;
+    position: inherit;
+    display: block!important;
+}
+
+.global-nav_innar ul li:last-child {
+    margin-bottom: 15px;
+}
+
+.global-nav_innar ul li a {
+    letter-spacing: .1em;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li .global-nav_innar ul li a {
+    color: #232323;
+    background: url(/img/common/arrow_333.png) no-repeat right #fff;
+    background-position: right 20px center;
+}
+
+.global-nav_innar ul li a .material-symbols-outlined {
+    display: block;
+    margin-right: 10px;
+}
+
+.global-nav_innar .menu_title {
+    font-size: 1.6rem;
+    font-family: Quicksand, "ヒラギノ角ゴ ProN W3", "Hiragino Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+    letter-spacing: 2px;
+    margin: 10px auto 10px 0px;
+    color: #fff;
+}
+
+.global-nav_innar .menu_title span {
+    color: rgb(172, 152, 78);
+    font-size: 1.6rem;
+    font-family: Quicksand, "ヒラギノ角ゴ ProN W3", "Hiragino Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+    letter-spacing: 2px;
+}
+
+.global-nav_innar ul {
+    width: 100%;
+    height: auto;
+    margin: 10px 0 0;
+    position: inherit;
+}
+
+/* 表示された時用のCSS */
+
+.nav-open .hamburger {
+    border-radius: 50%;
+    background-color: #e5e5e5;
+    animation-name: fadein;
+    animation-duration: 1s;
+    position: fixed;
+    margin: 6px 0 0 0;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 300;
+    top: 15px;
+    right: 325px;
+}
+
+.nav-open .header_attention {
+    display: none;
+}
+
+.header_attention_00 {
+    display: block !important;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.nav-open .hamburger__line {
+    background-color: #ac984e;
+}
+
+.nav-open .global-nav {
+    top: 0;
+    right: 0px;
+}
+
+.nav-open .black-bg {
+    filter: blur(10px);
+    visibility: visible;
+}
+
+.nav-open .hamburger__line--1 {
+    transform: rotate(45deg);
+    top: 20px;
+    display: block;
+}
+
+.nav-open .hamburger__line--2 {
+    display: none;
+}
+
+.nav-open .hamburger__line--3 {
+    transform: rotate(-45deg);
+    top: 20px;
+    display: block;
+}
+
+/*  🍔　*/
+
+
+.sticky_area_right_inner .header_att {
+    padding-top: 5px;
+}
+
+.sticky_area_right_inner .header_att_ {
+    padding-top: 0px;
+}
+
+.talk_unread,
+.todo_unread {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    background: var(--ColorRed);
+    position: absolute;
+    top: -2px;
+    bottom: 0;
+    margin: auto;
+    right: 20px;
+}
+
+
+    .oshirase_dott {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: var(--ColorRed);
+        position: absolute;
+        top: 0px;
+        right: 50%;
+        margin: 0 -20px 0 0;
+    }
+
+/* ===============================================
+　　 1024px
+=============================================== */
+@media (max-width:1024px) {}
+
+/* ===============================================
+　　 912px - 768px
+=============================================== */
+@media (max-width:768) {
+
+        .header_hamburge_mypage .global-nav {
+        background-color: #000;
+    }
+
+        .header_hamburge_mypage .hamburger__line--2 {
+        top: 10px;
+        left: 4;
+        background: none;
+    }
+}
+
+/* ===============================================
+　　スマホ　 667px iphone ランドスケープ対応
+=============================================== */
+@media (max-width:667px) {
+
+    header a img {
+        width: 80px;
+    }
+}
+
+/* ===============================================
+　　スマホ　 568px
+=============================================== */
+@media (max-width:568px) {}
+
+/* ===============================================
+　　スマホ　 567px header変化
+=============================================== */
+@media (max-width:567px) {}
+

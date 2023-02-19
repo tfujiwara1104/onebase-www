@@ -1,0 +1,15 @@
+.sticky_area,
+.sticky_area_inner {
+    display: contents;
+}
+
+.sticky_area_right {
+    display: none;
+}
+
+.sticky_area_left {
+    background: none;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
