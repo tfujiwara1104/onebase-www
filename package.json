@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tfujiwara1104/one-base.net.git"
+    "url": "git+https://github.com/tfujiwara1104/onebase-www.git"
   },
   "author": "Fujiwara",
   "license": "UNLICENSED",
   "private": true,
   "bugs": {
-    "url": "https://github.com/tfujiwara1104/one-base.net/issues"
+    "url": "https://github.com/tfujiwara1104/onebase-www/issues"
   },
-  "homepage": "https://github.com/tfujiwara1104/one-base.net#readme",
+  "homepage": "https://github.com/tfujiwara1104/onebase-www#readme",
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@babel/preset-env": "^7.20.2",
